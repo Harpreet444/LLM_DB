@@ -116,12 +116,12 @@ else:
 question = st.text_input("Input: ",key="input")
 submit = st.button("RUN")
 
-st.balloons()
 # Click on action
 if submit:
     response = get_response(question,prompt)
     print(response)
     data = access_db(response,"student.db")
+    st.balloons()
     st.subheader("Result :")
     st.table(data)
 
