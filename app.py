@@ -41,7 +41,7 @@ def get_response(que,prompt):
 # Prompt:
 prompt=["""
     You are an expert in converting English questions to SQL query! 
-    but remember dont perform any write manuplation or delete operation
+    but remember dont perform any write,manuplation and delete operation
     The SQL database has the name STUDENT and has the following columns - NAME, CLASS, 
     SECTION and MARKS(int) For example, Example 1 - How many entries of records are present?, 
     the SQL command will be something like this SELECT COUNT(*) FROM STUDENT ;
@@ -53,7 +53,7 @@ prompt=["""
 prompt_lst=[
     """
     You are an expert in converting English questions to SQL query!
-    but remember dont perform any write manuplation or delete operation
+    but remember dont perform any write, manuplation and delete operation
     The SQL database has the name STUDENT and has the following columns - NAME, CLASS, 
     SECTION and MARKS(int) For example, Example 1 - How many entries of records are present?, 
     the SQL command will be something like this SELECT COUNT(*) FROM STUDENT ;
