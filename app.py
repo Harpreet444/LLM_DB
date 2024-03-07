@@ -114,7 +114,7 @@ else:
     prompt[0]=prompt_lst[0]
 
 question = st.text_input("Input: ",key="input")
-submit = st.button("Ask the question")
+submit = st.button("RUN")
 
 st.balloons()
 # Click on action
