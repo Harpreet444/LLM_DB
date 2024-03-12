@@ -102,7 +102,6 @@ if switch:
     if k == st.secrets["pass"]:
         switch = True
         st.write("Write Operation Allowed")
-        st.balloons()
         prompt[0]=prompt_lst[1]
 
     else:
